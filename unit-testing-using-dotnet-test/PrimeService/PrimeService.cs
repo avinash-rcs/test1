@@ -6,7 +6,8 @@ namespace Prime.Services
     {
         public bool IsPrime(int candidate)
         {
-            throw new NotImplementedException("Not implemented.");
+            if (candidate ==1) return false;
+            return false;
         }
     }
 }
